@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+$VERBOSE = nil # suppress warnings from Ruby
+
+require 'incrcov'
+Incrcov.run(ARGV)
