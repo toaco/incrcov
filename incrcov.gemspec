@@ -41,5 +41,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'astrolabe', '~> 1.3'
   spec.add_runtime_dependency 'git', '~> 1.5'
+  spec.add_runtime_dependency 'markdown-tables', '~> 1.1'
   spec.add_runtime_dependency 'terminal-table', '~> 1.8'
 end
